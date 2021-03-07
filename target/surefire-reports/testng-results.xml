@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-07T19:36:32Z" name="LikeTest" finished-at="2021-03-07T19:36:36Z" duration-ms="3434">
+    <groups>
+      <group name="Negative">
+        <method signature="LikeTest.addLikeEmptyTokenTest()[pri:0, instance:LikeTest@5bfbf16f]" name="addLikeEmptyTokenTest" class="LikeTest"/>
+        <method signature="LikeTest.deleteLikeNonExistingLikeTest()[pri:0, instance:LikeTest@5bfbf16f]" name="deleteLikeNonExistingLikeTest" class="LikeTest"/>
+        <method signature="LikeTest.getLikesRestrictedPhotoTest()[pri:0, instance:LikeTest@5bfbf16f]" name="getLikesRestrictedPhotoTest" class="LikeTest"/>
+        <method signature="LikeTest.isLikedNegativeItemIdTest(int)[pri:0, instance:LikeTest@5bfbf16f]" name="isLikedNegativeItemIdTest" class="LikeTest"/>
+      </group>
+      <group name="Positive">
+        <method signature="LikeTest.addLikeTest()[pri:0, instance:LikeTest@5bfbf16f]" name="addLikeTest" class="LikeTest"/>
+        <method signature="LikeTest.deleteLikeTest()[pri:0, instance:LikeTest@5bfbf16f]" name="deleteLikeTest" class="LikeTest"/>
+        <method signature="LikeTest.getLikesTest()[pri:0, instance:LikeTest@5bfbf16f]" name="getLikesTest" class="LikeTest"/>
+        <method signature="LikeTest.isLikedTest()[pri:0, instance:LikeTest@5bfbf16f]" name="isLikedTest" class="LikeTest"/>
+      </group>
+    </groups>
+    <test started-at="2021-03-07T19:36:32Z" name="Command line test" finished-at="2021-03-07T19:36:36Z" duration-ms="3434">
+      <class name="LikeTest">
+        <test-method signature="addLikeEmptyTokenTest()[pri:0, instance:LikeTest@5bfbf16f]" started-at="2021-03-07T19:36:32Z" name="addLikeEmptyTokenTest" finished-at="2021-03-07T19:36:35Z" duration-ms="2703" status="PASS">
+        </test-method>
+        <test-method signature="addLikeTest()[pri:0, instance:LikeTest@5bfbf16f]" started-at="2021-03-07T19:36:35Z" name="addLikeTest" finished-at="2021-03-07T19:36:35Z" duration-ms="133" status="PASS">
+        </test-method>
+        <test-method signature="deleteLikeNonExistingLikeTest()[pri:0, instance:LikeTest@5bfbf16f]" started-at="2021-03-07T19:36:35Z" name="deleteLikeNonExistingLikeTest" finished-at="2021-03-07T19:36:35Z" duration-ms="68" status="PASS">
+        </test-method>
+        <test-method signature="deleteLikeTest()[pri:0, instance:LikeTest@5bfbf16f]" started-at="2021-03-07T19:36:35Z" name="deleteLikeTest" finished-at="2021-03-07T19:36:35Z" duration-ms="221" status="PASS">
+        </test-method>
+        <test-method signature="getLikesRestrictedPhotoTest()[pri:0, instance:LikeTest@5bfbf16f]" started-at="2021-03-07T19:36:35Z" name="getLikesRestrictedPhotoTest" finished-at="2021-03-07T19:36:36Z" duration-ms="67" status="PASS">
+        </test-method>
+        <test-method signature="getLikesTest()[pri:0, instance:LikeTest@5bfbf16f]" started-at="2021-03-07T19:36:36Z" name="getLikesTest" finished-at="2021-03-07T19:36:36Z" duration-ms="63" status="PASS">
+        </test-method>
+        <test-method signature="isLikedNegativeItemIdTest(int)[pri:0, instance:LikeTest@5bfbf16f]" started-at="2021-03-07T19:36:36Z" name="isLikedNegativeItemIdTest" finished-at="2021-03-07T19:36:36Z" duration-ms="67" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="isLikedTest()[pri:0, instance:LikeTest@5bfbf16f]" started-at="2021-03-07T19:36:36Z" name="isLikedTest" finished-at="2021-03-07T19:36:36Z" duration-ms="85" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
